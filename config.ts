@@ -2,11 +2,11 @@ import { existsSync, readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 
 const config: BotConfig = {
-    token: 'TOKEN',                   // token
-    clientId: 'ID',                  // client id
-    mongoUri: 'mongodb+',           // mongo uri
+    token: 'MTM1Mzk1NzQ1NjM3MTM4NDQyMg.GgPheI.9qQqEnCN5wPyxN_xP4BAnA04m2tR0XS-qrgUVo',                   // token
+    clientId: '1353957456371384422',                  // client id
+    mongoUri: 'mongodb+srv://3nzi:b-52@cluster0.v3dmc2z.mongodb.net/?retryWrites=true&w=majority',           // mongo uri
     defaultPrefix: '!',
-    mainGuildId: 'ID',             // main guild id
+    mainGuildId: '1353958478942568468',             // main guild id
     defaultLanguage: 'en',        // default language
     dashboard: {
         port: 3000,             // port for dashboard
